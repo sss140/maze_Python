@@ -57,7 +57,7 @@ def setMatrix(myPos,myColor):
     matrix[myPos[0]][myPos[1]] = myColor
     seq.append((myPos,myColor))
 
-＃迷路を作成
+#迷路を作成
 def makeMaze():
     intersecs = [[-1,1]]
     while len(intersecs):
